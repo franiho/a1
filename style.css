@@ -4,6 +4,15 @@
 body{
     font-size: larger;
 }
+
+p{
+    margin-left:10px;
+    margin-right: 10px;
+}
+ a,li:hover {
+     color: darkgoldenrod;
+
+}
 #wrapper{
     border: solid gray;
     padding: 10px;
@@ -21,7 +30,7 @@ body{
     height:100px;
     width:250px;
     margin-bottom:10px;
-    background-color: #0a590f;
+
 }
 #bar{
     height: 50px;
@@ -47,17 +56,22 @@ body{
     display: block;
     text-align:left;
     height: 400px;
-    width: 77%;
+    width: 79%;
     padding-top:0px;
     overflow:auto;
     float:right;
     background-color:deepskyblue;
 
   }
-div#main h4{
+div#main h4 {
     margin-left: 100px;
-    font-size:xx-large;
+    font-size: xx-large;
 }
+div#main p{
+        padding-left: 10px;
+        padding-right: auto;
+    }
+
 #bottom{
     width: 100%;
     margin-top:10px;
@@ -96,6 +110,7 @@ div#navigation ul li{
     overflow: hidden;
     background-color:darkslategrey;
 
+
      }
 div#navigation li{
     float: right;
@@ -115,3 +130,10 @@ div#navigation li a{
     padding: 15px 19px;
 }
 
+.register{
+    margin-top: 100px;
+    margin-left: 300px ;
+    font-size: xx-large;
+    background-color:crimson;
+    font-weight:800;
+}
