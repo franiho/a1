@@ -19,7 +19,7 @@ li a:hover {
     border: solid gray;
     padding: 10px;
     width: 100%;
-    height: 1000px;
+    height: 900px;
     background-image: url("images/classic.jpg");
 }
 #top{
@@ -35,8 +35,8 @@ li a:hover {
 #box{
     border: 1px solid;
     margin-top: 10px;
-    width:80%;
-    height:500px;
+    width:85%;
+    height:450px;
     margin-left: 150px;
     margin-right: 100px;
     background-color: #00a0d1;
@@ -44,7 +44,7 @@ li a:hover {
 }
 
 #side{
-    height:400px;
+    height:450px;
     width:35%;
     float: left;
     display: block;
@@ -54,7 +54,7 @@ li a:hover {
 #main {
     text-align:left;
     display: block;
-    height: 400px;
+    height: 450px;
     width: 65%;
     float: right;
     padding-top:0px;
@@ -63,11 +63,12 @@ li a:hover {
 
 }
 #bottom{
-    width: 80%;
+    width: 85%;
+    margin-left:11%;
+    margin-right:50px;
     margin-top:10px;
     font-size: x-large;
     float:right;
-    margin-right: 110px;
     background-color:#009A36;
 }
 
@@ -83,7 +84,7 @@ div#header img{
     float: left;
 }
 h1,h2{
-    margin-left: 20%;
+    margin-left: 11%;
     margin-top: 0px;
     color:blue;
 }
@@ -144,21 +145,11 @@ table, th, td{
 input[type=text], input[type=email]
 {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 7px 15px;
+    margin: 4px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    cursor: pointer;
-    width: 100%;
 }
 
 
@@ -170,7 +161,7 @@ button {
 
 /* Add padding to container elements */
 .container {
-    padding: 16px;
+    padding: 11px;
 }
 
 /* Clear floats */
