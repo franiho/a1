@@ -6,101 +6,98 @@ body{
 }
 
 p{
-    margin-left:10px;
+    margin-left: 10px;
     margin-right: 10px;
+    padding:0px;
 }
- a,li:hover {
-     color: darkgoldenrod;
+li a:hover {
+    background-color: #3c221c;
+    color: white;
+}
 
-}
 #wrapper{
     border: solid gray;
     padding: 10px;
     width: 100%;
-    height: 900px;
-    background-color:#eaeae1;
-
-
-    }
+    height: 1000px;
+    background-image: url("images/classic.jpg");
+}
 #top{
     height: 100px;
     background-color: #009A36;
 }
 #logo{
     height:100px;
-    width:250px;
+    width: 200px;
     margin-bottom:10px;
+}
 
-}
-#bar{
-    height: 50px;
-    width:100%;
-    margin-top:10px;
-    background-color: #00FF00;
-}
 #box{
-    border: solid;
+    border: 1px solid;
     margin-top: 10px;
-    width:100%;
-    height:400px;
+    width:80%;
+    height:500px;
+    margin-left: 150px;
+    margin-right: 100px;
+    background-color: #00a0d1;
+
 }
 
-#side{height:400px;
-    width:23%;
-    float:left;
-    margin-top: 200px; ;
+#side{
+    height:400px;
+    width:35%;
+    float: left;
+    display: block;
     background-color:cyan;
-    font-size:20px;
+
 }
 #main {
-    display: block;
     text-align:left;
+    display: block;
     height: 400px;
-    width: 79%;
+    width: 65%;
+    float: right;
     padding-top:0px;
-    overflow:auto;
-    float:right;
+    margin-top: 0px;
     background-color:deepskyblue;
 
-  }
-div#main h4 {
-    margin-left: 100px;
-    font-size: xx-large;
 }
-div#main p{
-        padding-left: 10px;
-        padding-right: auto;
-    }
-
 #bottom{
-    width: 100%;
+    width: 80%;
     margin-top:10px;
     font-size: x-large;
     float:right;
-    padding-left: 50px;
-    background-color:#00FF00;
+    margin-right: 110px;
+    background-color:#009A36;
 }
 
- div#header h1, h2{
-     font-family: "intel-clear-light", Arial, Verdana, Helvetica, sans-serif;
-     font-weight: 300;
-     font-size: 30px;
-     text-shadow: #5A3E85;
+div#header h1, h2{
+    font-family: "intel-clear-light", Arial, Verdana, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-shadow: #5A3E85;
 
- }
- div#header img{
-     margin-top: 0px;
-     float: left;
- }
- h1,h2{
-     margin-left: 20%;
-     margin-top: 0px;
-     color:blue;
- }
+}
+div#header img{
+    margin-top: 0px;
+    float: left;
+}
+h1,h2{
+    margin-left: 20%;
+    margin-top: 0px;
+    color:blue;
+}
 h2{
     font-weight:bold;
     font-style: italic;
     font-family:"fantasy";
+
+}
+
+h3, h4, h5{
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-left: 10px;
 
 }
 div#navigation ul li{
@@ -110,13 +107,10 @@ div#navigation ul li{
     overflow: hidden;
     background-color:darkslategrey;
 
-
-     }
+}
 div#navigation li{
     float: right;
     border-right:1px solid #000000 ;
-
-
 }
 
 div#navigation li:last-child{
@@ -129,11 +123,67 @@ div#navigation li a{
     font-size: 20px;
     padding: 15px 19px;
 }
-
 .register{
-    margin-top: 100px;
-    margin-left: 300px ;
-    font-size: xx-large;
-    background-color:crimson;
-    font-weight:800;
+    font-size:xx-large;
+    font-weight: 800;
+    background-color: darkred;
+    margin-left: 50px;
+    margin-top: 5px;
 }
+
+table{
+    font-size: x-large;
+    margin-left: 5%;
+}
+table, th, td{
+    border: 1px solid gray;
+
+}
+/* sign up form code*/
+/* Full-width input fields */
+input[type=text], input[type=email]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* Float signup buttons and add an equal width */
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+}
+    .signupbtn {
+        width: 100%;
+    }
