@@ -11,8 +11,9 @@ p{
     padding:0px;
 }
 li a:hover {
-    background-color: #3c221c;
-    color: white;
+    background-color: white ;
+
+
 }
 
 #wrapper{
@@ -24,6 +25,8 @@ li a:hover {
 }
 #top{
     height: 100px;
+    width:98.5%;
+    font-size:larger;
     background-color: #009A36;
 }
 #logo{
@@ -48,6 +51,7 @@ li a:hover {
     width:35%;
     float: left;
     display: block;
+    margin-left: 10px;
     background-color:cyan;
 
 }
@@ -57,16 +61,16 @@ li a:hover {
     height: 450px;
     width: 65%;
     float: right;
-    padding-top:0px;
+    padding-left:10px;
     margin-top: 0px;
     background-color:deepskyblue;
 
 }
 #bottom{
+    border:1px solid;
     width: 85%;
     margin-left:11%;
-    margin-right:50px;
-    margin-top:10px;
+    margin-right:20px;
     font-size: x-large;
     float:right;
     background-color:#009A36;
@@ -95,10 +99,13 @@ h2{
 
 }
 
-h3, h4, h5{
-    font-size: xx-large;
-    margin-top: 10px;
-    margin-left: 10px;
+h3, h4, h5, h6{
+    font-size:x-large;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-style:oblique;
+    color: darkslategrey;
+
 
 }
 div#navigation ul li{
@@ -126,10 +133,11 @@ div#navigation li a{
 }
 .register{
     font-size:xx-large;
-    font-weight: 800;
+    font-weight:800;
     background-color: darkred;
-    margin-left: 50px;
-    margin-top: 5px;
+    color: black;
+    margin-left: 100px;
+    margin-top: 3px;
 }
 
 table{
@@ -138,6 +146,7 @@ table{
 }
 table, th, td{
     border: 1px solid gray;
+    color:white;
 
 }
 /* sign up form code*/
@@ -178,3 +187,21 @@ input[type=text], input[type=email]
     .signupbtn {
         width: 100%;
     }
+.appearance{
+    font-size: xx-large;
+    font-weight: 900;
+    margin-right: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #3f76d3;
+}
+#container {
+    border: 1px solid;
+    margin-top: 10px;
+    width: 85%;
+    height: 200px;
+    margin-left: 150px;
+    margin-right: 100px;
+    background-color: #00a0d1;
+}
